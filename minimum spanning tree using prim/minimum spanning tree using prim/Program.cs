@@ -41,7 +41,7 @@ namespace minimum_spanning_tree_using_prim
             Console.WriteLine("\nThe Adjacency Matrix for the graph is as follows:");
             displayGrid(Adjacency_matrix);
 
-            Prim prim = new Prim();
+            Prim prim = new Prim(Adjacency_matrix.Length);
             prim.primMST(Adjacency_matrix);
 
             Console.ReadLine();
