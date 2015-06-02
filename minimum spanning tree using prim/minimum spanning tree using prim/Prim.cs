@@ -50,7 +50,7 @@ namespace minimum_spanning_tree_using_prim
          */
         private void printMST(int[] parent, int[][] graph)
         {
-            //Hier komt een conflict. iets 
+            //Hier komt een conflict.
             Console.WriteLine("\nEdge   Weight\n");
             for (int i = 1; i < vertices; i++)
             {
