@@ -50,11 +50,13 @@ namespace minimum_spanning_tree_using_prim
          */
         private void printMST(int[] parent, int[][] graph)
         {
+            //Hier komt een conflict.
             Console.WriteLine("\nEdge   Weight\n");
             for (int i = 1; i < vertices; i++)
             {
                 Console.WriteLine(parent[i] + " - "+ i + " |  " + graph[i][parent[i]] + "\n");
             }
+            //plus wat extra's
         }
 
         /** Function to construct and print MST for a graph represented using adjacency matrix representation.
